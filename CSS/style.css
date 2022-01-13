@@ -12,12 +12,14 @@
   /*flex-direction: row;
   flex-wrap: wrap;*/
   flex-flow: row wrap;
+  justify-content: space-between; /*espaço nos componentes*/
 }
 
 .my-item {
+  height: 150px;
   background-color: yellowgreen;
   border-radius: 8px;
   padding: 30px;
   border: 4px solid white;
-  flex-basis: 25%;
+  flex-basis: 10%;
 }
