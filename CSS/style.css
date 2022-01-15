@@ -11,7 +11,7 @@
   border-radius: 8px;
   /*flex-direction: row;
   flex-wrap: wrap;*/
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between; /*espaço nos componentes*/
   align-items: flex-start;
   align-content: center;
@@ -23,7 +23,7 @@
   border-radius: 8px;
   padding: 30px;
   border: 4px solid white;
-  flex-basis: 300px;
+  
 }
 
 .order-1{
@@ -64,4 +64,8 @@
 
 .shrink-5{
   flex-shrink: 5;
+}
+
+.flex-grow-3{
+  flex: 3 1 auto;
 }
